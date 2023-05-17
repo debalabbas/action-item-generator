@@ -234,6 +234,6 @@ if __name__ == '__main__':
         }
         print(log_dict)
         wandb.log(log_dict)
-    
+
     model.save_pretrained('../bart-finetuned-action-items')
     tokenizer.save_pretrained('../bart-finetuned-action-items')
